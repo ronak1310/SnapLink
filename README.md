@@ -72,7 +72,7 @@ Snaplink/
 
 ## 📌 Project Status
 
-Snaplink is currently **under development**. The core URL shortening functionality and the main authentication pages have been implemented, while database integration, user profiles, recent links, and some improvements are still in progress.
+Snaplink is currently **under development**. The core URL shortening functionality and the main authentication pages and database integration  have been implemented, while Some UI functionality, user profiles, recent links, and some improvements are still in progress.
 
 ## 👨‍💻 Development
 
