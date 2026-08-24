@@ -1,16 +1,79 @@
-# React + Vite
+# 🔗 Snaplink
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Snaplink is a **URL shortening web application** that converts long URLs into short, easy-to-share links.
 
-Currently, two official plugins are available:
+The project is being developed using **React.js for the frontend** and **Python/Flask for the backend**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Current Progress
 
-## React Compiler
+* ✅ Home page completed
+* ✅ User Login page completed
+* ✅ User Signup page completed
+* ✅ Long URL can be converted into a short URL
+* 🔄 Backend and database integration
+* 🔄 User profile page
+* 🔄 Recent/previously generated links
+* 🔄 Some UI and functionality improvements
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+### Frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* JavaScript
+* HTML
+* CSS
+* Vite
+
+### Backend
+
+* Python
+* Flask
+
+### Database
+
+* MySQL
+
+## ✨ Planned Features
+
+* User authentication
+* User profile
+* Store shortened URLs for each user
+* View recently created links
+* Redirect short URLs to their original URLs
+* Improve UI and user experience
+* Additional validations and improvements
+
+## 📂 Project Structure
+
+```text
+Snaplink/
+├── backend/
+│   └── app.py
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── InputBox.jsx
+│   │   ├── LoginForm.jsx
+│   │   ├── Navbar.jsx
+│   │   └── Signup.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   └── Home.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## 📌 Project Status
+
+Snaplink is currently **under development**. The core URL shortening functionality and the main authentication pages have been implemented, while database integration, user profiles, recent links, and some improvements are still in progress.
+
+## 👨‍💻 Development
+
+This project is being developed as a full-stack web application to learn and implement concepts such as **React, Flask, APIs, authentication, databases, and URL shortening**.
