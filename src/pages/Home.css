@@ -1,0 +1,66 @@
+/* --- Global Wrapper (Light Sky Blue Background) --- */
+.home-wrapper {
+  background-color: #e0f2fe; /* Light Sky Blue */
+  min-height: 100vh;
+  width: 100%;
+  color: #0f172a; /* Dark slate text for better visibility on light background */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* --- Navigation Bar (Dark Sky Blue) --- */
+.top-nav {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+  padding: 20px 40px;
+  gap: 25px; 
+  background-color: #0369a1; /* Dark Sky Blue */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); /* Halka sa shadow 3D effect ke liye */
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #bae6fd; /* Hover par lightest blue */
+}
+
+.nav-btn {
+  background-color: #0ea5e9; /* Bright Sky Blue for Button */
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 22px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+  border: 1px solid #e0f2fe;
+}
+
+.nav-btn:hover {
+  background-color: #0284c7; /* Hover par thoda dark button */
+}
+
+/* --- Main Heading Container --- */
+.home-container {
+  text-align: center;
+  margin-top: 80px; 
+  margin-bottom: 40px; 
+  padding: 0 20px;
+}
+
+.home-container h1 {
+  font-size: 42px;
+  font-weight: 800;
+  color: #0369a1; /* Heading ka color Navbar se match karta hua */
+  margin: 0;
+  letter-spacing: -0.5px;
+}
